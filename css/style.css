@@ -1,0 +1,215 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+body {
+	background: none;
+	width: 100%;
+}
+
+main {
+	margin: 0 auto;
+	height: 100%;
+	min-height: 700px;
+	background: none;
+	padding: 2%;
+	font-size: 18px;
+	max-width: 800px;
+}
+
+#menu {
+	margin-top: 0;
+	height: 50px;
+	background: #3C2D84;
+	font-family: Verdana;
+	font-size: 20px;
+}
+
+#contain {
+	margin-top: 0px;
+}
+
+.wrap {
+	max-width: 1024px;
+	padding: 5px;
+	margin: 0 auto;
+}
+
+
+#dict {
+	margin: 0;
+	padding: 4px;
+	max-width: 800px;
+	background: gray;
+}
+
+.elem {
+	margin-right: 20px;
+	float: left;
+	border: 1px black solid;
+	min-height: 600px;
+	width: 350px;
+}
+
+
+#insert {
+	padding: 4px;
+	width: 200px;
+	background: blue;
+	color: white;
+}
+
+#word {
+	padding: 4px;
+	border: 2px black solid;
+	width: 350px;
+	height: auto;
+}
+
+#text {
+	min-height: 600px;
+}
+
+#pages {
+	margin-bottom: 0;
+	width: 40%;
+	margin: 10px auto;
+	height: 15%;
+}
+
+.word {
+	background: white;
+}
+
+.word:hover {
+	background: none;
+}
+
+#words {
+	background: none;
+}
+
+.buttons {
+	margin-bottom: 0;
+	position: relative;
+}
+
+.step {
+	margin: 2%;
+	padding: 1%;
+	border: 2px black solid;
+	border-radius: 5px;
+	width: auto;
+	float: left;
+	background: gray;
+}
+
+.clear {
+	clear:both;
+}
+
+footer {
+	color: white;
+	width: 100%;
+	margin-bottom: 0;
+	height: 50px;
+	background: black;
+}
+
+#footer {
+	padding: 5px;
+	text-align: right;
+}
+
+#mean {
+	margin-top: 1%;
+	width:100%;
+	height: auto;
+	background: #E3EFF0;
+	font-size: 80%;
+}
+
+#menu .item {
+	margin-left: 2px;
+	padding: 2px;
+	color: white;
+	height: 35px;
+	width: 15%;
+	float: left;
+	text-align: center;
+}
+
+#menu .item:hover {
+	background: #6A48D7;
+}
+
+.item ul {
+	position:absolute;
+	visibility:hidden;
+}
+
+.item:hover ul {
+	visibility: visible;
+	width: inherit;
+}
+
+.item li {
+	clear: both;
+	padding: 2px;
+	background: #3C2D84;
+	text-align: left;
+}
+
+.item li:hover {
+	padding: 2px;
+	border: 2px black solid;
+	background: #6A48D7;
+}
+
+.headText {
+	padding: 2%;
+	font-size: 120%;
+}
+
+@media screen and (max-width: 620px) {
+	#top {
+		height: 20px;
+		width: 50%;
+		background: #008110;
+		float: left;
+	}
+	
+	#texthead {
+		display: none;
+	}
+	
+	#main {
+		margin: 0;
+		height: 100px;
+	}
+	
+	#menu {
+		width: 40%;
+		font-size: 10px;
+	}
+	
+	#footer {
+		display: none;
+	}
+	
+	#pages {
+		width: auto;
+		margin: 10px auto;
+	}
+	
+}
